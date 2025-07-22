@@ -28,12 +28,12 @@ If you need to install VERL manually, run:
 git clone https://github.com/volcengine/verl.git
 cd verl
 git checkout v0.2.0.post1
-pip install .
+pip install -e .
 ```
 
 ### 2. Experiment Data
 
-All datasets used in our experiments are located in the data/ directory.
+All datasets used in our experiments are located in the **`data/`** directory.
 You’ll find five R1-style datasets for each of the three domains—ready to use and easy to explore.
 
 ### 3. Run the Experiments
@@ -45,7 +45,11 @@ bash run.sh
 This script takes care of data processing, training, and evaluation.
 Sit back and watch your models learn! 🤖✨
 
+To run experiments on other domain combinations, you can modify the model path, data path, and training hyperparameters accordingly.
 
+Note:
+When performing curriculum learning, we recommend setting `data.shuffle = False` to ensure the data order is preserved.
+Shuffling may disrupt the intended learning progression and lead to suboptimal results.
 🙏 Acknowledgements
 
 A huge thank you to the VERL team for their amazing open-source reinforcement learning library.

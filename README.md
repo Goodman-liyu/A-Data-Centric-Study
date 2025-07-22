@@ -49,7 +49,10 @@ Note:
 When performing curriculum learning, we recommend setting `data.shuffle = False` to ensure the data order is preserved.
 Shuffling may disrupt the intended learning progression and lead to suboptimal results.
 
+### 4. Reward Design
 
+The reward design for all datasets, along with output regularization logic, can be found in  
+`verl/utils/reward_score/__init__.py` and the corresponding data-specific files.
 
 ## 📧 Contact
 

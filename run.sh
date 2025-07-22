@@ -1,5 +1,5 @@
 #!/bin/bash
-source activate base
+source activate data_rl
 
 export MODEL=$1
 export DATA_NAME=$2

@@ -66,12 +66,18 @@ We're always happy to help and discuss! 😊
 
 If our work helps your research, please consider citing our paper and starring this repo! 🌟
 
+
+
+
 ```tex
-@article{sheng2024hybridflow,
-  title   = {HybridFlow: A Flexible and Efficient RLHF Framework},
-  author  = {Guangming Sheng and Chi Zhang and Zilingfeng Ye and Xibin Wu and Wang Zhang and Ru Zhang and Yanghua Peng and Haibin Lin and Chuan Wu},
-  year    = {2024},
-  journal = {arXiv preprint arXiv: 2409.19256}
+@misc{li2025domainhelpothersdatacentric,
+      title={Can One Domain Help Others? A Data-Centric Study on Multi-Domain Reasoning via Reinforcement Learning}, 
+      author={Yu Li and Zhuoshi Pan and Honglin Lin and Mengyuan Sun and Conghui He and Lijun Wu},
+      year={2025},
+      eprint={2507.17512},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2507.17512}, 
 }
 ```
 
